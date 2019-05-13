@@ -26,18 +26,6 @@ loadPkg("plotly")
 loadPkg("faraway")
 ```
 
-
-```{r echo=FALSE, message=FALSE}
-library("readxl")
-library("ggplot2")
-library("dplyr")
-library("corrplot")
-library("data.table")
-library("RColorBrewer")
-library("plotly")
-library("faraway")
-```
-
 ```{r echo=FALSE, message=FALSE}
 #Load in our data and create a dataframe
 df <- read_excel("hslsmath.xls", sheet = "data")
